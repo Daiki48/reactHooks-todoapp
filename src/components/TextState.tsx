@@ -13,6 +13,7 @@ const TextState = () => {
     const newTodoData: TodoData = {
       value: text,
       id: new Date().getTime(),
+      checked: false,
     };
     setTodoData([newTodoData, ...todoData]);
     setText('');
