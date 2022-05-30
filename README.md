@@ -11,9 +11,9 @@ In this case, I used [Vite](https://vitejs.dev/guide/) to build my environment.
 $ yarn create vite
 ```
 After entering the command, you will be asked the following.
-Project name: `reactHooks-todoapp`
-Select a framework: `react`
-Select a variant: `react-ts`
+- Project name: `reactHooks-todoapp`
+- Select a framework: `react`
+- Select a variant: `react-ts`
 
 Install yarn since it is not installed.
 ```sh
