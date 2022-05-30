@@ -2,6 +2,9 @@ type TodoData = {
   value: string;
   readonly id: number;
   checked: boolean;
+  removed: boolean;
 };
 
-export { TodoData };
+type Filter = 'all' | 'checked' | 'unchecked' | 'removed';
+
+export { TodoData, Filter };
